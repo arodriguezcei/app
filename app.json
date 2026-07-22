@@ -1,0 +1,51 @@
+{
+  "id": "8f79fe30-d4c6-4296-8137-2b29102c9e3d",
+  "name": ">THB-BC-PER",
+  "publisher": "CEI Europe",
+  "version": "26.0.0.0",
+  "brief": "Personalizaciones THB",
+  "description": "Personalizaciones THB",
+  "privacyStatement": "https://www.ceieu.com/",
+  "EULA": "https://www.ceieu.com/",
+  "help": "https://www.ceieu.com/",
+  "url": "https://www.ceieu.com/",
+  "logo": "./CEI-logo-europe.jpeg",
+  "dependencies": [ 
+        {"id" : "35cd749a-c32c-4a78-8dc7-13e2fdd1dcb1","name": "Quohotel - BASE", "version": "26.0.0.0","publisher": "CEI Europe"},
+    {"id" : "e33bd436-0a95-440b-af54-0695f349653c","name": "Quohotel - Front Office", "version": "26.0.0.0","publisher": "CEI Europe"},
+    {"id" : "56ce1751-2d73-4da5-9a0c-f2dcf1368e1f","name": "Quohotel - Back Office", "version": "26.0.0.0","publisher": "CEI Europe"},
+    {"id" : "fec96dbd-0574-47d7-8c95-4d88e9647113","name": "Quohotel - Integrations", "version": "26.0.0.0","publisher": "CEI Europe"},
+    {"id" : "ca744cca-96b3-4cf6-9dec-440110a6f306","name": "QuoSII", "version": "23.0.31.1","publisher": "CEI Europe"}
+   ],
+  "screenshots": [],
+  "platform": "1.0.0.0",
+  "application": "26.0.0.0",
+  "idRanges": [
+    {
+      "from": 60000,
+      "to": 61000
+    },
+    {
+      "from": 50000,
+      "to": 50200
+    },
+    {
+      "from": 7012450,
+      "to": 7012469
+    },
+    {
+      "from": 7043030,
+      "to": 7043049
+    }
+
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": false,
+    "includeSourceInSymbolFile": true
+  },
+  "contextSensitiveHelpUrl": "https://www.ceieu.com/contacto/",
+  "runtime":"15.2",
+  "target": "Cloud",
+  "features": ["TranslationFile"]
+}

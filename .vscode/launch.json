@@ -1,0 +1,40 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+
+        {
+            "name": "VSLIS",
+            "request": "launch",
+            "type": "al",
+            "server": "http://INS14-LIRAGO",
+            "serverInstance": "BCLOCAL260",
+            "authentication": "Windows",
+            "startupObjectId": 22,
+            "startupObjectType": "Page",
+            "breakOnError": true,
+            "launchBrowser": true,
+            "enableLongRunningSqlStatements": true,
+            "enableSqlInformationDebugger": true,
+            "tenant": "default",
+            "port": 7049,
+            "environmentType" :"OnPrem"
+        },
+        {
+            
+            "name": "Publish: Microsoft cloud sandbox",
+            "type": "al",
+            "request": "launch",
+            "environmentType": "Sandbox",
+            "environmentName": "QUOHOTEL-PREPROD",
+            "startupObjectId": 22,
+            "breakOnError": "All",
+            "breakOnRecordWrite": "None",
+            "launchBrowser": true,
+            "enableSqlInformationDebugger": true,
+            "enableLongRunningSqlStatements": true,
+            "longRunningSqlStatementsThreshold": 500,
+            "numberOfSqlStatements": 10
+        } 
+        
+    ]
+}

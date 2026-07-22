@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Report xmlns="http://schemas.microsoft.com/sqlserver/reporting/2016/01/reportdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
+  <AutoRefresh>0</AutoRefresh>
+  <DataSources>
+    <DataSource Name="DataSource">
+      <ConnectionProperties>
+        <DataProvider>SQL</DataProvider>
+        <ConnectString />
+      </ConnectionProperties>
+      <rd:SecurityType>None</rd:SecurityType>
+      <rd:DataSourceID>0c476eda-3b7a-4f50-94f8-986aad13ecc5</rd:DataSourceID>
+    </DataSource>
+  </DataSources>
+  <DataSets>
+    <DataSet Name="DataSet_Result">
+      <Query>
+        <DataSourceName>DataSource</DataSourceName>
+        <CommandText />
+      </Query>
+      <Fields>
+        <Field Name="wReg">
+          <DataField>wReg</DataField>
+        </Field>
+        <Field Name="wEstReg">
+          <DataField>wEstReg</DataField>
+        </Field>
+        <Field Name="wEstRegTot">
+          <DataField>wEstRegTot</DataField>
+        </Field>
+        <Field Name="wTipHab">
+          <DataField>wTipHab</DataField>
+        </Field>
+        <Field Name="wTipHabEst">
+          <DataField>wTipHabEst</DataField>
+        </Field>
+        <Field Name="wTipHabEstTot">
+          <DataField>wTipHabEstTot</DataField>
+        </Field>
+        <Field Name="wTipHabOcup">
+          <DataField>wTipHabOcup</DataField>
+        </Field>
+        <Field Name="wTipHabOcupTot">
+          <DataField>wTipHabOcupTot</DataField>
+        </Field>
+        <Field Name="wEst">
+          <DataField>wEst</DataField>
+        </Field>
+        <Field Name="wEstTot">
+          <DataField>wEstTot</DataField>
+        </Field>
+        <Field Name="wOcup">
+          <DataField>wOcup</DataField>
+        </Field>
+        <Field Name="wOcupTot">
+          <DataField>wOcupTot</DataField>
+        </Field>
+        <Field Name="wProd">
+          <DataField>wProd</DataField>
+        </Field>
+        <Field Name="wProdFormat">
+          <DataField>wProdFormat</DataField>
+        </Field>
+        <Field Name="wProdTot">
+          <DataField>wProdTot</DataField>
+        </Field>
+        <Field Name="wProdTotFormat">
+          <DataField>wProdTotFormat</DataField>
+        </Field>
+        <Field Name="wProm">
+          <DataField>wProm</DataField>
+        </Field>
+        <Field Name="wPromTot">
+          <DataField>wPromTot</DataField>
+        </Field>
+      </Fields>
+      <rd:DataSetInfo>
+        <rd:DataSetName>DataSet</rd:DataSetName>
+        <rd:SchemaPath>Report.xsd</rd:SchemaPath>
+        <rd:TableName>Result</rd:TableName>
+      </rd:DataSetInfo>
+    </DataSet>
+  </DataSets>
+  <ReportSections>
+    <ReportSection>
+      <Body>
+        <Height>2in</Height>
+        <Style />
+      </Body>
+      <Width>6.5in</Width>
+      <Page>
+        <PageHeader>
+          <Height>1in</Height>
+          <PrintOnFirstPage>true</PrintOnFirstPage>
+          <PrintOnLastPage>true</PrintOnLastPage>
+          <Style>
+            <Border>
+              <Style>None</Style>
+            </Border>
+          </Style>
+        </PageHeader>
+        <Style />
+      </Page>
+    </ReportSection>
+  </ReportSections>
+  <ReportParametersLayout>
+    <GridLayoutDefinition>
+      <NumberOfColumns>4</NumberOfColumns>
+      <NumberOfRows>2</NumberOfRows>
+    </GridLayoutDefinition>
+  </ReportParametersLayout>
+  <Code>Public Function BlankZero(ByVal Value As Decimal)
+    if Value = 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+
+Public Function BlankPos(ByVal Value As Decimal)
+    if Value &gt; 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+
+Public Function BlankZeroAndPos(ByVal Value As Decimal)
+    if Value &gt;= 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+
+Public Function BlankNeg(ByVal Value As Decimal)
+    if Value &lt; 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+
+Public Function BlankNegAndZero(ByVal Value As Decimal)
+    if Value &lt;= 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+</Code>
+  <Language>=User!Language</Language>
+  <ConsumeContainerWhitespace>true</ConsumeContainerWhitespace>
+  <rd:ReportUnitType>Inch</rd:ReportUnitType>
+  <rd:ReportID>0eeb6585-38ae-40f1-885b-8d50088d51b4</rd:ReportID>
+</Report>
