@@ -1,0 +1,1319 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="en-US" original="&gt;THB-BC-PER">
+    <body>
+      <group id="body">
+        <trans-unit id="Table 1646399681 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Booking</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Booking THB - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1646399681 - Field 2019554610 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>3AD</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Booking THB - Field 3AD - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1646399681 - Field 3856141960 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>3AD free</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Booking THB - Field 3AD Gratis - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1646399681 - Field 1320217101 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>3JR</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Booking THB - Field 3JR - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1646399681 - Field 1126843163 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>3JR Free</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Booking THB - Field 3JR Gratis - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1646399681 - Field 1451541768 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>3CH</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Booking THB - Field 3NI - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1646399681 - Field 976833762 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>3CH free</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Booking THB - Field 3NI Gratis - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1646399681 - Field 1492034143 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>AD</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Booking THB - Field AD - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1646399681 - Field 1133154796 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>AD Bkg. x Room</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Booking THB - Field AD Bkg. x Hab. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1646399681 - Field 277714673 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>AD free</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Booking THB - Field AD Gratis - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1646399681 - Field 3580678678 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>AD Booked</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Booking THB - Field AD Reservado - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1646399681 - Field 1591585115 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Hotel Buildings</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Booking THB - Field Bloques Hotel - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1646399681 - Field 831610046 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Free Hotel Buildings</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Booking THB - Field Bloques Hotel libres - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1646399681 - Field 4285523977 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Calc Room</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Booking THB - Field Calc Habitaciones - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1646399681 - Field 1660020614 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Number of rooms</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Booking THB - Field Cantidad habitaciones - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1646399681 - Field 3185885146 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>BA</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Booking THB - Field CU - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1646399681 - Field 1320941573 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CO Bkg. x Hab.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Booking THB - Field CU Bkg. x Hab. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1646399681 - Field 4030991435 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>BA Booked</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Booking THB - Field CU Reservado - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1646399681 - Field 1591186699 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Allotment</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Booking THB - Field Cupo - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1646399681 - Field 459855641 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>allotment</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Booking THB - Field Cupo contrato - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1646399681 - Field 1158747561 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Guaranteed allotment</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Booking THB - Field Cupo Garantizado - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1646399681 - Field 2420951036 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>allotment</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Booking THB - Field Cupo tarifa - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1646399681 - Field 203263196 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Hotel rooms</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Booking THB - Field Habitaciones Hotel - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1646399681 - Field 3174862598 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Hotel</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Booking THB - Field Hotel - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1646399681 - Field 1996616572 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>JR</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Booking THB - Field JR - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1646399681 - Field 3577983 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>JR Bkg. x Room.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Booking THB - Field JR Bkg. x Hab. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1646399681 - Field 2821438870 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>JR free</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Booking THB - Field JR Gratis - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1646399681 - Field 3019189097 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>JR Booked</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Booking THB - Field JR Reservado - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1646399681 - Field 742366809 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CH</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Booking THB - Field NI - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1646399681 - Field 170579318 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>NI Bkg. x Room</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Booking THB - Field NI Bkg. x Hab. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1646399681 - Field 2577500967 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CH free</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Booking THB - Field NI Gratis - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1646399681 - Field 2105225660 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CH Booked</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Booking THB - Field NI Reservado - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1646399681 - Field 1436286525 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Occupation</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Booking THB - Field Ocupacion - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1646399681 - Field 1624251794 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Bkg. x Room Occupation</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Booking THB - Field Ocupacion Bkg. x Hab. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1646399681 - Field 965357766 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Commercialising Occupancy</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Booking THB - Field Ocupacion Comercial - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1646399681 - Field 820568689 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Guarantee Commercialising Occupancy</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Booking THB - Field Ocupacion Comercial Gtia. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1646399681 - Field 454355659 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Reselling Occupancy</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Booking THB - Field Ocupacion comercial tentativas - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1646399681 - Field 1694504994 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Contracts Occupation</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Booking THB - Field Ocupacion Contratos - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1646399681 - Field 3670329584 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Guarantee Occupation</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Booking THB - Field Ocupacion Garantia - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1646399681 - Field 2107927759 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No Guarantee occupation </source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Booking THB - Field Ocupacion No Garantia - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1646399681 - Field 3375560875 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Contracts Occupancy</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Booking THB - Field Ocupacion Tarifas - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1646399681 - Field 775877868 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Occupancy</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Booking THB - Field Ocupacion tentativas - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1646399681 - Field 2367712880 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Occupants Arrival Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Booking THB - Field Ocupantes Fecha Entrada - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1646399681 - Field 621360569 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Occupants Departure Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Booking THB - Field Ocupantes Fecha Salida - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1646399681 - Field 3425849509 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Agency Range</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Booking THB - Field Rango Agencia - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1646399681 - Field 3734752794 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Blocks Range</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Booking THB - Field Rango Bloques - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1646399681 - Field 35236261 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Range Channel / Source</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Booking THB - Field Rango Canal/Origen - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1646399681 - Field 4055747267 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Client Range</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Booking THB - Field Rango Cliente - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1646399681 - Field 2603647846 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>DayUse range</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Booking THB - Field Rango DayUse - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1646399681 - Field 2266893135 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Status Range</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Booking THB - Field Rango Estado - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1646399681 - Field 2266893135 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Booking,Cancelled,Check In,Check Out,No Show,Tentativa</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Booking THB - Field Rango Estado - Property OptionCaption</note>
+        </trans-unit>
+        <trans-unit id="Table 1646399681 - Field 4250857800 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Range Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Booking THB - Field Rango Fecha - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1646399681 - Field 3423154944 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Nationality Range</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Booking THB - Field Rango Nacionalidad - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1646399681 - Field 3135635938 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Offer range</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Booking THB - Field Rango Oferta - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1646399681 - Field 3591216020 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Floors Range</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Booking THB - Field Rango Plantas - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1646399681 - Field 1615354754 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Room Ranges Range</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Booking THB - Field Rango Rangos Hab. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1646399681 - Field 4122733905 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Real range</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Booking THB - Field Rango Real - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1646399681 - Field 2463198760 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Invoice Board Range</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Booking THB - Field Rango Regimen fact. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1646399681 - Field 4290011109 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Use Board Range</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Booking THB - Field Rango Regimen Uso - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1646399681 - Field 61199603 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Range Segment</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Booking THB - Field Rango Segmento - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1646399681 - Field 2552808632 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>General Room Type Range</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Booking THB - Field Rango Tipo Hab. Gral. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1646399681 - Field 4015061229 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Room Type Range</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Booking THB - Field Rango Tipo Habitacion - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1646399681 - Field 569619831 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Invoice Room Type Range</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Booking THB - Field Rango Tipo Habitacion fact. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1646399681 - Field 294439323 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Treatment Range</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Booking THB - Field Rango Trato - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1646399681 - Field 294439323 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Client,Invited,Staff,VIP,FixedTS,FloatingTS,OwnerRentalTS,Com.Rent.TS,TSInterval,TSPoints</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Booking THB - Field Rango Trato - Property OptionCaption</note>
+        </trans-unit>
+        <trans-unit id="Table 1646399681 - Field 1837105991 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>TTOO Range</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Booking THB - Field Rango TTOO - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1646399681 - Field 3467927117 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>User Range</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Booking THB - Field Rango Usuario - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2895649345 - Field 434666230 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Boleana</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Controles THB - Field Boleana - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2895649345 - Field 2657500364 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Boleana2</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Controles THB - Field Boleana2 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2895649345 - Field 2019803747 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Boleana3</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Controles THB - Field Boleana3 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2895649345 - Field 940074596 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Campo</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Controles THB - Field Campo - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2895649345 - Field 815114957 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Campo Filtro 1</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Controles THB - Field Campo Filtro 1 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2895649345 - Field 177418340 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Campo Filtro 2</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Controles THB - Field Campo Filtro 2 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2895649345 - Field 3834689019 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Campo Filtro 3</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Controles THB - Field Campo Filtro 3 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2895649345 - Field 3004954119 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Controles THB - Field Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2895649345 - Field 1380164041 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Code2</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Controles THB - Field Code2 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2895649345 - Field 2017860658 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Code3</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Controles THB - Field Code3 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2895649345 - Field 3261716993 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Control</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Controles THB - Field Control - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2895649345 - Field 2688099599 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Date1</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Controles THB - Field Date1 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2895649345 - Field 306222154 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Date2</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Controles THB - Field Date2 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2895649345 - Field 3350651205 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Decimal</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Controles THB - Field Decimal - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2895649345 - Field 4131898243 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Decimal 2</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Controles THB - Field Decimal 2 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2895649345 - Field 474627564 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Decimal 3</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Controles THB - Field Decimal 3 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2895649345 - Field 2717946333 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Filtro1</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Controles THB - Field Filtro1 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2895649345 - Field 2080249716 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Filtro2</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Controles THB - Field Filtro2 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2895649345 - Field 1442553099 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Filtro3</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Controles THB - Field Filtro3 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2895649345 - Field 3542765401 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>ID Tabla</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Controles THB - Field ID Tabla - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2895649345 - Field 57064651 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Inactivo</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Controles THB - Field Inactivo - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2895649345 - Field 3883182266 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Integer</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Controles THB - Field Integer - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2895649345 - Field 775711280 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Integer2</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Controles THB - Field Integer2 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2895649345 - Field 138014663 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Integer3</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Controles THB - Field Integer3 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2895649345 - Field 1866991915 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SourceCounter</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Controles THB - Field SourceCounter - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2895649345 - Field 3514686166 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Texto</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Controles THB - Field Texto - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2895649345 - Field 2595875308 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Texto2</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Controles THB - Field Texto2 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2895649345 - Field 1958178691 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Texto3</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Controles THB - Field Texto3 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2895649345 - Field 3984012033 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Valor de campo</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Controles THB - Field Valor de campo - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1741206154 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Purga Precios Compra</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Purga Precios Compra Temp - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1741206154 - Field 4198939294 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Cód. Divisa</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Purga Precios Compra Temp - Field Currency Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1741206154 - Field 838355892 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Cód. Zona</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Purga Precios Compra Temp - Field Cód. Zona - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1741206154 - Field 4187992892 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Coste Unit. Directo</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Purga Precios Compra Temp - Field Direct Unit Cost - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1741206154 - Field 1394992909 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Empresa Destino</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Purga Precios Compra Temp - Field Empresa Destino - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1741206154 - Field 458406397 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Fecha Final</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Purga Precios Compra Temp - Field Ending Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1741206154 - Field 568743302 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Nº Producto</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Purga Precios Compra Temp - Field Item No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1741206154 - Field 67248183 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Cantidad Mínima</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Purga Precios Compra Temp - Field Minimum Quantity - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1741206154 - Field 3445315636 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No. Linea</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Purga Precios Compra Temp - Field No. Linea - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1741206154 - Field 460889064 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Fecha Inicial</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Purga Precios Compra Temp - Field Starting Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1741206154 - Field 438695475 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Tipo Agrupación</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Purga Precios Compra Temp - Field Tipo Agrupacion - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1741206154 - Field 2385270358 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Cód. Unidad de Medida</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Purga Precios Compra Temp - Field Unit of Measure Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1741206154 - Field 3450651614 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Cód. Variante</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Purga Precios Compra Temp - Field Variant Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1741206154 - Field 1527594213 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Nº Proveedor</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Purga Precios Compra Temp - Field Vendor No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 505585066 - Field 3448704475 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Almacen</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Unidades de Recuentos - Field Almacen - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 505585066 - Field 1991915875 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Fecha</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Unidades de Recuentos - Field Fecha - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 505585066 - Field 3174862598 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Hotel</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Unidades de Recuentos - Field Hotel - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 505585066 - Field 2231268992 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Producto</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Unidades de Recuentos - Field Producto - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 505585066 - Field 3532322139 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Recuento</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Unidades de Recuentos - Field Recuento - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 505585066 - Field 3182453070 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Unidad 1</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Unidades de Recuentos - Field Unidad 1 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 505585066 - Field 1269363219 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Unidad 2</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Unidades de Recuentos - Field Unidad 2 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 505585066 - Field 1907059836 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Unidad 3</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Unidades de Recuentos - Field Unidad 3 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 505585066 - Field 4288937281 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Unidad 4</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Unidades de Recuentos - Field Unidad 4 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 505585066 - Field 3226587110 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Unidad Medida 1</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Unidades de Recuentos - Field Unidad Medida 1 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 505585066 - Field 1313497259 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Unidad Medida 2</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Unidades de Recuentos - Field Unidad Medida 2 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 505585066 - Field 1951193876 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Unidad Medida 3</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Unidades de Recuentos - Field Unidad Medida 3 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 505585066 - Field 38104025 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Unidad Medida 4</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Unidades de Recuentos - Field Unidad Medida 4 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2110991353 - NamedType 949234894" size-unit="char" translate="yes" xml:space="preserve">
+          <source>El parametro de Front office Edad minima DNI no esta parametrizado</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit IFF Funciones Varias - NamedType TextErrorEdadDNI</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2110991353 - NamedType 1242312970" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No esta permitido el envio de Ficha Policia parcial en el hotel %1</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit IFF Funciones Varias - NamedType TextErrorPermitirFPolicia</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2110991353 - NamedType 1942481984" size-unit="char" translate="yes" xml:space="preserve">
+          <source>El hotel %1 no esta parametrizado en Front office</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit IFF Funciones Varias - NamedType TextErrorPFo</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1698370939 - NamedType 2476940767" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Exportando datos BiOnTrend...\\Fichero: #1################\\Registro: #2######## de #3########</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit THB BiOnTrend Export - NamedType Text000</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1698370939 - NamedType 3114637384" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Exportacion BiOnTrend completada. %1 ficheros generados en: %2</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit THB BiOnTrend Export - NamedType Text001</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1698370939 - NamedType 3752334001" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No se ha podido obtener el hotel de trabajo del usuario.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit THB BiOnTrend Export - NamedType Text002</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 684760930 - Method 1611708610 - NamedType 699935176" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No se pueden registrar facturas con más de 6 días de antigüedad</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit THB Funciones - Method OnBeforePostPurchaseDoc_C90 - NamedType err001</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 684760930 - Method 1611708610 - NamedType 1337631793" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No se pueden registrar facturas con fecha posterior a la emisión de las mismas.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit THB Funciones - Method OnBeforePostPurchaseDoc_C90 - NamedType err002</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 684760930 - Method 1611708610 - NamedType 1975328410" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No se pueden registrar facturas con fecha posterior a la fecha de hoy</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit THB Funciones - Method OnBeforePostPurchaseDoc_C90 - NamedType err003</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 684760930 - Method 237722934 - NamedType 3114637384" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Pago factura %1</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit THB Funciones - Method OnCreateTempJnlLinesOnBeforeTempGenJnlLineInsert_C1222 - NamedType Text001</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 684760930 - Method 3235694153 - NamedType 1599178165" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Efecto %1/%2 %3</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit THB Funciones - Method OnSplitPurchInvOnCreateBillsOnBeforePostGenJnlLine_C7000005 - NamedType Text7000100</note>
+        </trans-unit>
+        <trans-unit id="Page 3370785259 - NamedType 2476940767" size-unit="char" translate="yes" xml:space="preserve">
+          <source>TOTAL</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EE Estancias x Régimen v1 - NamedType Text000</note>
+        </trans-unit>
+        <trans-unit id="Page 3370785259 - NamedType 3114637384" size-unit="char" translate="yes" xml:space="preserve">
+          <source>-1A</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EE Estancias x Régimen v1 - NamedType Text001</note>
+        </trans-unit>
+        <trans-unit id="Page 3370785259 - Control 2163849685 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EE Estancias x Régimen v1 - Control %_1 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3370785259 - Control 1526153068 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EE Estancias x Régimen v1 - Control %_2 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3370785259 - Control 888456451 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EE Estancias x Régimen v1 - Control %_3 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3370785259 - Control 250759834 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EE Estancias x Régimen v1 - Control %_4 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3370785259 - Control 1611465821 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Estancias (Año Actual)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EE Estancias x Régimen v1 - Control Estancias (Año Actual)_1 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3370785259 - Control 756690647 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Estancias (Año Anterior)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EE Estancias x Régimen v1 - Control Estancias (Año Anterior)_1 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3370785259 - Control 872056960 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Variación</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EE Estancias x Régimen v1 - Control Variación_1 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 541811486 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Registros huérfanos a purgar</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Preview Purga Precios - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 3811167376 - Control 4268452583 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Fecha Final</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Hist. Ocupantes Repetidores - Control Fecha Final - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 3811167376 - Control 745990836 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Fecha Inicial</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Hist. Ocupantes Repetidores - Control Fecha Inicial - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 3811167376 - Control 3090958926 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Repeticiones Mínimas</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Hist. Ocupantes Repetidores - Control Repeticiones Mínimas - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 3811167376 - Control 511080445 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sólo con e-mails</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Hist. Ocupantes Repetidores - Control Sólo con e-mails - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 3811167376 - Control 501580948 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Ver Detalle</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Hist. Ocupantes Repetidores - Control Ver Detalle - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 4255922896 - NamedType 3114637384" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Fecha Inicial</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Listado de IRPF - NamedType Text001</note>
+        </trans-unit>
+        <trans-unit id="Report 4255922896 - NamedType 3752334001" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Fecha Final</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Listado de IRPF - NamedType Text002</note>
+        </trans-unit>
+        <trans-unit id="Report 1698370939 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>BiOnTrend Export</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report THB BiOnTrend Export - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1698370939 - Control 2346885236 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Options</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report THB BiOnTrend Export - Control Options - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1698370939 - Control 89044111 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Full Load (from 2019)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report THB BiOnTrend Export - Control gModoCompleto - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1698370939 - Control 3406421679 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Output Path</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report THB BiOnTrend Export - Control gRuta - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 2949180872 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Make 347 Declaration</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report THB Make 347 Declaration - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 2949180872 - NamedType 3408087630" size-unit="char" translate="yes" xml:space="preserve">
+          <source>At least one of the G/L Accounts selected for payments in cash is set up to be ignored in 347 report.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report THB Make 347 Declaration - NamedType AccountsWillBeIgnoredErr</note>
+        </trans-unit>
+        <trans-unit id="Report 2949180872 - NamedType 1267025357" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 collection(-s) in cash were created.</source>
+          <note from="Developer" annotates="general" priority="2">%1 = 3 collection(-s) in cash were created</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report THB Make 347 Declaration - NamedType CollectionsGeneratedMsg</note>
+        </trans-unit>
+        <trans-unit id="Report 2949180872 - NamedType 2418210996" size-unit="char" translate="yes" xml:space="preserve">
+          <source>At least one %1/%2 does not have any value in the %3 field. \Only customers or vendors with a value for %3 will be included in the file. \\Do you still want to create the 347 Declaration file?</source>
+          <note from="Developer" annotates="general" priority="2">%1=Customer,%2=Vendor,%3=VAT Registration No.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report THB Make 347 Declaration - NamedType DoYouWantToContinueQst</note>
+        </trans-unit>
+        <trans-unit id="Report 2949180872 - NamedType 3014721114" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Txt Files|*.txt|All Files|*.*'</source>
+          <note from="Developer" annotates="general" priority="2">Please translate only "Txt Files" and "All Files". The rest of the characters should remain unchanged.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report THB Make 347 Declaration - NamedType FileFilterTxt</note>
+        </trans-unit>
+        <trans-unit id="Report 2949180872 - NamedType 1845236427" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Declaration 347 year %1.txt</source>
+          <note from="Developer" annotates="general" priority="2">%1=declaration year</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report THB Make 347 Declaration - NamedType FileNameTxt</note>
+        </trans-unit>
+        <trans-unit id="Report 2949180872 - NamedType 2128789078" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Generate collections in cash</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report THB Make 347 Declaration - NamedType GenerateCollectionsInCashLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2949180872 - NamedType 2406216251" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Incorrect Fiscal Year.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report THB Make 347 Declaration - NamedType IncorrectFiscalYearErr</note>
+        </trans-unit>
+        <trans-unit id="Report 2949180872 - NamedType 2496863006" size-unit="char" translate="yes" xml:space="preserve">
+          <source>ISO-8859-1</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report THB Make 347 Declaration - NamedType Iso88591Lbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2949180872 - NamedType 499999308" size-unit="char" translate="yes" xml:space="preserve">
+          <source>List of Direct Customers</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report THB Make 347 Declaration - NamedType ListDirectClientes</note>
+        </trans-unit>
+        <trans-unit id="Report 2949180872 - NamedType 3378981514" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Contact Name must be entered.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report THB Make 347 Declaration - NamedType MissingContactNameErr</note>
+        </trans-unit>
+        <trans-unit id="Report 2949180872 - NamedType 3512706359" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Postal Code is missing on customer card %1.</source>
+          <note from="Developer" annotates="general" priority="2">%1=Customer No.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report THB Make 347 Declaration - NamedType MissingCustomerPostalCodeErr</note>
+        </trans-unit>
+        <trans-unit id="Report 2949180872 - NamedType 567925988" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Declaration Number must be entered.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report THB Make 347 Declaration - NamedType MissingDeclarationNoErr</note>
+        </trans-unit>
+        <trans-unit id="Report 2949180872 - NamedType 3125241584" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Fiscal Year must be entered.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report THB Make 347 Declaration - NamedType MissingFiscalYearErr</note>
+        </trans-unit>
+        <trans-unit id="Report 2949180872 - NamedType 553541241" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Minimum Amount must be entered.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report THB Make 347 Declaration - NamedType MissingMinAmountErr</note>
+        </trans-unit>
+        <trans-unit id="Report 2949180872 - NamedType 4117896163" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Please specify the Previous Declaration No. if this is a replacement declaration.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report THB Make 347 Declaration - NamedType MissingPrevDeclarationNoErr</note>
+        </trans-unit>
+        <trans-unit id="Report 2949180872 - NamedType 574010208" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Telephone Number must be entered.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report THB Make 347 Declaration - NamedType MissingTelephoneNoErr</note>
+        </trans-unit>
+        <trans-unit id="Report 2949180872 - NamedType 4081882671" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Postal Code is missing on vendor card %1.</source>
+          <note from="Developer" annotates="general" priority="2">%1=Vendor No.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report THB Make 347 Declaration - NamedType MissingVendorPostalCodeErr</note>
+        </trans-unit>
+        <trans-unit id="Report 2949180872 - NamedType 3655454029" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No records were found to be included in the declaration. The process has been aborted. No file will be created.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report THB Make 347 Declaration - NamedType NothingToExportMsg</note>
+        </trans-unit>
+        <trans-unit id="Report 2949180872 - NamedType 4035299507" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The process has been aborted. No file will be generated.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report THB Make 347 Declaration - NamedType ProcessAbortedMsg</note>
+        </trans-unit>
+        <trans-unit id="Report 2949180872 - NamedType 4213042709" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The SII setup is not enabled to send collections in cash. Specify end points in the SII Setup window and import the certificate.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report THB Make 347 Declaration - NamedType SIINotEnabledToSendCollInCashErr</note>
+        </trans-unit>
+        <trans-unit id="Report 2949180872 - NamedType 2476940767" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Running\</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report THB Make 347 Declaration - NamedType Text000</note>
+        </trans-unit>
+        <trans-unit id="Report 2949180872 - NamedType 3752334001" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customers      #1######## @2@@@@@@@@@@@@@@@@@@@@@@@@@@@\</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report THB Make 347 Declaration - NamedType Text002</note>
+        </trans-unit>
+        <trans-unit id="Report 2949180872 - NamedType 95063322" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Suppliers   #3######## @4@@@@@@@@@@@@@@@@@@@@@@@@@@@</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report THB Make 347 Declaration - NamedType Text003</note>
+        </trans-unit>
+        <trans-unit id="Report 2949180872 - NamedType 557655741" size-unit="char" translate="yes" xml:space="preserve">
+          <source>BLOQUEADO POR PROCESO 347</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report THB Make 347 Declaration - NamedType Text017</note>
+        </trans-unit>
+        <trans-unit id="Report 2949180872 - NamedType 857534312" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Falta especificar C.P. en alguna factura hotel del cliente con CIF %1</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report THB Make 347 Declaration - NamedType Text018</note>
+        </trans-unit>
+        <trans-unit id="Report 2949180872 - NamedType 219837695" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Clientes dir. #5###### @6@@@@@@\</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report THB Make 347 Declaration - NamedType Text019</note>
+        </trans-unit>
+        <trans-unit id="Report 2949180872 - NamedType 1940672225" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Debe especificar Empresa gestión si desea incluir los directos.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report THB Make 347 Declaration - NamedType Text020</note>
+        </trans-unit>
+        <trans-unit id="Report 2949180872 - NamedType 2578368842" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Existe un cliente con Codigo %1 y existe, al menos, una factura de directos que tiene el NIF %1. </source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report THB Make 347 Declaration - NamedType Text021</note>
+        </trans-unit>
+        <trans-unit id="Report 2949180872 - NamedType 665278991" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Si se activa la opción de Incluir directos no puede haber ninguna ficha de clientes</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report THB Make 347 Declaration - NamedType Text022</note>
+        </trans-unit>
+        <trans-unit id="Report 2949180872 - NamedType 3712775136" size-unit="char" translate="yes" xml:space="preserve">
+          <source>347 Declaration has been exported successfully under %1.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report THB Make 347 Declaration - NamedType Text1100023</note>
+        </trans-unit>
+        <trans-unit id="Report 2949180872 - NamedType 1330897691" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Txt Files|*.txt|All Files|*.*'</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report THB Make 347 Declaration - NamedType Text1100026</note>
+        </trans-unit>
+        <trans-unit id="Report 2949180872 - NamedType 2416740071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Utf-8</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report THB Make 347 Declaration - NamedType Utf8Lbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2949180872 - NamedType 967622101" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Fiscal Year must be %1 digits without spaces or digital characters.</source>
+          <note from="Developer" annotates="general" priority="2">%1=number of digits</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report THB Make 347 Declaration - NamedType WrongFiscalYearErr</note>
+        </trans-unit>
+        <trans-unit id="Report 2949180872 - NamedType 2115252970" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Previous Declaration Number must be %1 digits without spaces or special characters.</source>
+          <note from="Developer" annotates="general" priority="2">%1=number of digits</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report THB Make 347 Declaration - NamedType WrongPreviousDeclarationNoErr</note>
+        </trans-unit>
+        <trans-unit id="Report 2949180872 - NamedType 1450048749" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Telephone Number must be %1 digits without spaces or special characters.</source>
+          <note from="Developer" annotates="general" priority="2">%1=number of digits</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report THB Make 347 Declaration - NamedType WrongTelephoneNoErr</note>
+        </trans-unit>
+        <trans-unit id="Report 2949180872 - ReportDataItem 1287105286 - Method 3245603402 - NamedType 390372580" size-unit="char" translate="yes" xml:space="preserve">
+          <source>¿Desea continuar o solucionar los mensajes mostrados?</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report THB Make 347 Declaration - ReportDataItem ControlDatos - Method OnAfterGetRecord - NamedType TextL0001</note>
+        </trans-unit>
+        <trans-unit id="Report 2949180872 - Control 2346885236 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Options</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report THB Make 347 Declaration - Control Options - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 2949180872 - Control 4144518489 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the name of the person making the declaration.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report THB Make 347 Declaration - Control ContactName - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 2949180872 - Control 4144518489 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Contact Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report THB Make 347 Declaration - Control ContactName - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 2949180872 - Control 1949053183 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Country/Region Code field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report THB Make 347 Declaration - Control CountryRegCode - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 2949180872 - Control 1949053183 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Country/Region Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report THB Make 347 Declaration - Control CountryRegCode - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 2949180872 - Control 2292808279 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Country/Region Code field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report THB Make 347 Declaration - Control CountryRegionCode - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 2949180872 - Control 2292808279 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Country/Region Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report THB Make 347 Declaration - Control CountryRegionCode - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 2949180872 - Control 1717520648 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the media type for the declaration. To submit the declaration electronically, select Telematic. To submit the declaration on a CD-ROM, select Physical support.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report THB Make 347 Declaration - Control DeclarationMediaType - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 2949180872 - Control 1717520648 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Declaration Media Type</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report THB Make 347 Declaration - Control DeclarationMediaType - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 2949180872 - Control 2985297925 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies a number to identify the operations declaration.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report THB Make 347 Declaration - Control DeclarationNumber - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 2949180872 - Control 2985297925 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Declaration Number</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report THB Make 347 Declaration - Control DeclarationNumber - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 2949180872 - Control 2055464223 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the year of the reporting period. It must be 4 digits without spaces or special characters.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report THB Make 347 Declaration - Control FiscalYear - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 2949180872 - Control 2055464223 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Fiscal Year</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report THB Make 347 Declaration - Control FiscalYear - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 2949180872 - Control 2001801514 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies one or more on general ledger accounts for cash payments. When you export the data to a declaration file, the Amount Received in Cash field in the file contains the accumulated value for the selected general ledger accounts. If you do not select any general ledger accounts, then type 2 lines for payments in cash will not be created.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report THB Make 347 Declaration - Control GLAccForPaymentsInCash - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 2949180872 - Control 2001801514 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GL Acc. for Payments in Cash</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report THB Make 347 Declaration - Control GLAccForPaymentsInCash - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 2949180872 - Control 499999308 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the Direct Customers, is included the Direct customer set up in FO Setup</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report THB Make 347 Declaration - Control ListDirectClientes - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 2949180872 - Control 3125423586 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the minimum amount for the operations declaration.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report THB Make 347 Declaration - Control MinAmount - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 2949180872 - Control 3125423586 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Min. Amount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report THB Make 347 Declaration - Control MinAmount - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 2949180872 - Control 1118595236 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the minimum amount in payments in cash received from customers for the operations declaration.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report THB Make 347 Declaration - Control MinAmountInCash - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 2949180872 - Control 1118595236 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Min. Amount in Cash</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report THB Make 347 Declaration - Control MinAmountInCash - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 2949180872 - Control 301646251 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the number as 13 digits without spaces or special characters.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report THB Make 347 Declaration - Control PreDeclarationNum - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 2949180872 - Control 301646251 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Previous Declaration Number</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report THB Make 347 Declaration - Control PreDeclarationNum - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 2949180872 - Control 2121428866 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies if this is a replacement of a previously sent declaration.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report THB Make 347 Declaration - Control ReplacementDeclaration - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 2949180872 - Control 2121428866 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Replacement Declaration</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report THB Make 347 Declaration - Control ReplacementDeclaration - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 2949180872 - Control 2889252033 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the phone number as 9 digits without spaces or special characters.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report THB Make 347 Declaration - Control TelephoneNumber - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 2949180872 - Control 2889252033 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Telephone Number</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report THB Make 347 Declaration - Control TelephoneNumber - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 2949180872 - Control 3169426508 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Ctrol. Datos Obligatorios field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report THB Make 347 Declaration - Control wDatosObligatorios - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 2949180872 - Control 3169426508 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Ctrol. Datos Obligatorios</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report THB Make 347 Declaration - Control wDatosObligatorios - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 2949180872 - Control 360550169 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Si desea incluir los directos en el 347 debe especifiar la empresa de gestion (se precisa que las facturas de hotel estén en la empresa de gestión y tengan NIF asignado y se recomienda tener el cárdex activado)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report THB Make 347 Declaration - Control wEmpresaGestion - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 2949180872 - Control 360550169 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Empresa de Gestión</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report THB Make 347 Declaration - Control wEmpresaGestion - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 2949180872 - Control 2908996564 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Incluir directos field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report THB Make 347 Declaration - Control wIncluirDirectos - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 2949180872 - Control 2908996564 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Incluir directos</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report THB Make 347 Declaration - Control wIncluirDirectos - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3052689842 - Action 3754731762 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 401156184">
+          <source>Replicación Cobros</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension THBConsultaFacturas - Action ReplicaCob - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3052689842 - Action 264950516 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 401156184">
+          <source>Replicación Facturas</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension THBConsultaFacturas - Action ReplicaFact - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3052689842 - Control 3174862598 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 401156184">
+          <source>Hotel</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension THBConsultaFacturas - Control Hotel - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3052689842 - Control 526252629 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 401156184">
+          <source>Nombre Comercial</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension THBConsultaFacturas - Control NombreHotel - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3052689842 - Control 3846497736 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 401156184">
+          <source>Bono</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension THBConsultaFacturas - Control Bono - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3052689842 - Control 388434490 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 401156184">
+          <source>Destino</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension THBConsultaFacturas - Control Destino - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3052689842 - Control 2029684163 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 401156184">
+          <source>Facturas Electrónicas Activada</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension THBConsultaFacturas - Control FactElecAct - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3052689842 - Control 3383408939 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 401156184">
+          <source>Fecha de Entrada</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension THBConsultaFacturas - Control FecEntrada - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3052689842 - Control 2189772494 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 401156184">
+          <source>Fecha de Salida</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension THBConsultaFacturas - Control FecSalida - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3052689842 - Control 4291179364 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 401156184">
+          <source>Importe Pendiente de Cobro Local</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension THBConsultaFacturas - Control ImpPendCobroLoc - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3052689842 - Control 814966011 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 401156184">
+          <source>Nombre</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension THBConsultaFacturas - Control Nombre - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3052689842 - Control 2726740135 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 401156184">
+          <source>Nombre Cliente</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension THBConsultaFacturas - Control NombreCliente - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3052689842 - Control 79955159 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 401156184">
+          <source>Número de Cobro</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension THBConsultaFacturas - Control NumCobro - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3052689842 - Control 334540789 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 401156184">
+          <source>Número de Remesa Fact. Electrónica</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension THBConsultaFacturas - Control NumRemesa - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3052689842 - Control 3687165909 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 401156184">
+          <source>Observaciones</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension THBConsultaFacturas - Control Observaciones - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3052689842 - Control 383768257 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 401156184">
+          <source>Referencia Factura</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension THBConsultaFacturas - Control RefFactura - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4112378684 - Control 3846497736 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3922516259">
+          <source>Bono</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension THBFacturasDirectosExtra - Control Bono - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4112378684 - Control 814966011 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3922516259">
+          <source>Nombre</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension THBFacturasDirectosExtra - Control Nombre - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4112378684 - Control 4050796832 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3922516259">
+          <source>Ref. Factura</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension THBFacturasDirectosExtra - Control RefFra - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4223317765 - Control 1330308352 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1286637360">
+          <source>Importe Pendiente</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension THBFacturesdeAgencias - Control ImportePendiente - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4223317765 - Control 3846497736 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1286637360">
+          <source>Bono</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension THBFacturesdeAgencias - Control Bono - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4223317765 - Control 814966011 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1286637360">
+          <source>Nombre</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension THBFacturesdeAgencias - Control Nombre - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 102728225 - Action 3986597545 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1887905131">
+          <source>Personaloizaciones</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension THBGeneralLedgerEntries - Action Personalizaciones - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 102728225 - Action 2324526457 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1887905131">
+          <source>Cambiar Cuenta</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension THBGeneralLedgerEntries - Action CambiarCuenta - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 102728225 - Action 2324526457 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1887905131">
+          <source>Cambiar Cuenta</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension THBGeneralLedgerEntries - Action CambiarCuenta - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1187127465 - Action 744953224 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2522175728">
+          <source>Reset Recuento</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension THBRecuento - Action ResetRecuento - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1187127465 - Action 744953224 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2522175728">
+          <source>Reset Recuento</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension THBRecuento - Action ResetRecuento - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3476280707 - Control 2566924958 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1708251094">
+          <source>Unidad Medida 1</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension THBRecuentosSF - Control Unidad1 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3476280707 - Control 653835107 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1708251094">
+          <source>Unidad Medida 2</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension THBRecuentosSF - Control Unidad2 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3476280707 - Control 1291531724 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1708251094">
+          <source>Unidad Medida 3</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension THBRecuentosSF - Control Unidad3 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3476280707 - Control 3673409169 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1708251094">
+          <source>Unidad Medida 4</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension THBRecuentosSF - Control Unidad4 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3476280707 - Control 290022278 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1708251094">
+          <source>Especifica el código de unidad de medida que se usa al comprar el artículo.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension THBRecuentosSF - Control UnidadMedida1 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3476280707 - Control 290022278 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1708251094">
+          <source>Unidad Medida 1</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension THBRecuentosSF - Control UnidadMedida1 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3476280707 - Control 2671899723 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1708251094">
+          <source>Unidad Medida 2</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension THBRecuentosSF - Control UnidadMedida2 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3476280707 - Control 3309596340 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1708251094">
+          <source>Unidad Medida 3</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension THBRecuentosSF - Control UnidadMedida3 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3476280707 - Control 1396506489 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1708251094">
+          <source>Unidad Medida 4</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension THBRecuentosSF - Control UnidadMedida4 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2736532673 - Field 2944327262 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 20587256">
+          <source>Excluir Borrado Cardex</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension THBCardex - Field Excluir Borrado Cardex - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2736532673 - Field 1113831774 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 20587256">
+          <source>Fecha Exclusion Borrado</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension THBCardex - Field Fecha Exclusion Borrado - Property Caption</note>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

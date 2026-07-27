@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Report xmlns="http://schemas.microsoft.com/sqlserver/reporting/2016/01/reportdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
   <AutoRefresh>0</AutoRefresh>
   <DataSources>
@@ -11,78 +11,6 @@
       <rd:DataSourceID>12757369-3c27-4245-87e1-0c418ecd6562</rd:DataSourceID>
     </DataSource>
   </DataSources>
-  <DataSets>
-    <DataSet Name="DataSet_Result">
-      <Query>
-        <DataSourceName>DataSource</DataSourceName>
-        <CommandText />
-      </Query>
-      <Fields>
-        <Field Name="Nombre">
-          <DataField>Nombre</DataField>
-        </Field>
-        <Field Name="Booking">
-          <DataField>Booking</DataField>
-        </Field>
-        <Field Name="BookingFormat">
-          <DataField>BookingFormat</DataField>
-        </Field>
-        <Field Name="Estancias_AD">
-          <DataField>Estancias_AD</DataField>
-        </Field>
-        <Field Name="Estancias_ADFormat">
-          <DataField>Estancias_ADFormat</DataField>
-        </Field>
-        <Field Name="Estancias_JR">
-          <DataField>Estancias_JR</DataField>
-        </Field>
-        <Field Name="Estancias_JRFormat">
-          <DataField>Estancias_JRFormat</DataField>
-        </Field>
-        <Field Name="Estancias_NI">
-          <DataField>Estancias_NI</DataField>
-        </Field>
-        <Field Name="Estancias_NIFormat">
-          <DataField>Estancias_NIFormat</DataField>
-        </Field>
-        <Field Name="Estancias_CU">
-          <DataField>Estancias_CU</DataField>
-        </Field>
-        <Field Name="Estancias_CUFormat">
-          <DataField>Estancias_CUFormat</DataField>
-        </Field>
-        <Field Name="Total_Est_País">
-          <DataField>Total_Est_País</DataField>
-        </Field>
-        <Field Name="Total_Booking">
-          <DataField>Total_Booking</DataField>
-        </Field>
-        <Field Name="Total_AD">
-          <DataField>Total_AD</DataField>
-        </Field>
-        <Field Name="Total_JR">
-          <DataField>Total_JR</DataField>
-        </Field>
-        <Field Name="Total_NI">
-          <DataField>Total_NI</DataField>
-        </Field>
-        <Field Name="Total_CU">
-          <DataField>Total_CU</DataField>
-        </Field>
-        <Field Name="Total">
-          <DataField>Total</DataField>
-        </Field>
-        <Field Name="Linea_Totales">
-          <DataField>Linea_Totales</DataField>
-        </Field>
-      </Fields>
-      <rd:DataSetInfo>
-        <rd:DataSetName>DataSet</rd:DataSetName>
-        <rd:SchemaPath>Report.xsd</rd:SchemaPath>
-        <rd:TableName>Result</rd:TableName>
-      </rd:DataSetInfo>
-    </DataSet>
-  </DataSets>
   <ReportSections>
     <ReportSection>
       <Body>
@@ -965,12 +893,6 @@
       </Page>
     </ReportSection>
   </ReportSections>
-  <ReportParametersLayout>
-    <GridLayoutDefinition>
-      <NumberOfColumns>4</NumberOfColumns>
-      <NumberOfRows>2</NumberOfRows>
-    </GridLayoutDefinition>
-  </ReportParametersLayout>
   <Code>Public Function BlankZero(ByVal Value As Decimal)
     if Value = 0 then
         Return ""
@@ -1010,4 +932,71 @@ End Function
   <ConsumeContainerWhitespace>true</ConsumeContainerWhitespace>
   <rd:ReportUnitType>Inch</rd:ReportUnitType>
   <rd:ReportID>0eeb6585-38ae-40f1-885b-8d50088d51b4</rd:ReportID>
+  <DataSets>
+    <DataSet Name="DataSet_Result">
+      <Fields>
+        <Field Name="Nombre">
+          <DataField>Nombre</DataField>
+        </Field>
+        <Field Name="Booking">
+          <DataField>Booking</DataField>
+        </Field>
+        <Field Name="BookingFormat">
+          <DataField>BookingFormat</DataField>
+        </Field>
+        <Field Name="Estancias_AD">
+          <DataField>Estancias_AD</DataField>
+        </Field>
+        <Field Name="Estancias_ADFormat">
+          <DataField>Estancias_ADFormat</DataField>
+        </Field>
+        <Field Name="Estancias_JR">
+          <DataField>Estancias_JR</DataField>
+        </Field>
+        <Field Name="Estancias_JRFormat">
+          <DataField>Estancias_JRFormat</DataField>
+        </Field>
+        <Field Name="Estancias_NI">
+          <DataField>Estancias_NI</DataField>
+        </Field>
+        <Field Name="Estancias_NIFormat">
+          <DataField>Estancias_NIFormat</DataField>
+        </Field>
+        <Field Name="Estancias_CU">
+          <DataField>Estancias_CU</DataField>
+        </Field>
+        <Field Name="Estancias_CUFormat">
+          <DataField>Estancias_CUFormat</DataField>
+        </Field>
+        <Field Name="Total_Est_País">
+          <DataField>Total_Est_País</DataField>
+        </Field>
+        <Field Name="Total_Booking">
+          <DataField>Total_Booking</DataField>
+        </Field>
+        <Field Name="Total_AD">
+          <DataField>Total_AD</DataField>
+        </Field>
+        <Field Name="Total_JR">
+          <DataField>Total_JR</DataField>
+        </Field>
+        <Field Name="Total_NI">
+          <DataField>Total_NI</DataField>
+        </Field>
+        <Field Name="Total_CU">
+          <DataField>Total_CU</DataField>
+        </Field>
+        <Field Name="Total">
+          <DataField>Total</DataField>
+        </Field>
+        <Field Name="Linea_Totales">
+          <DataField>Linea_Totales</DataField>
+        </Field>
+      </Fields>
+      <Query>
+        <DataSourceName>DataSource</DataSourceName>
+        <CommandText />
+      </Query>
+    </DataSet>
+  </DataSets>
 </Report>

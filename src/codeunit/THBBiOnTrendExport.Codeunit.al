@@ -1,7 +1,7 @@
 codeunit 50050 "THB BiOnTrend Export"
 {
-    // THB-130426-IFF: Codeunit exportación datos BiOnTrend (Sinergycs).
-    // Genera 13 ficheros CSV para integración con plataforma BI.
+    // THB-130426-IFF: Codeunit exportacion datos BiOnTrend (Sinergycs).
+    // Genera 13 ficheros CSV para integracion con plataforma BI.
     // Ruta: \\192.168.10.201\BiOnTrend\<Hotel>\
     // OnRun = modo diario. Report 50050 = modo completo (desde 2019).
 
@@ -14,15 +14,18 @@ codeunit 50050 "THB BiOnTrend Export"
     var
         gRutaSalida: Text[250];
         gModoCompleto: Boolean;
+        gFichero: Text;
         gFechaDesde: Date;
         gFechaHasta: Date;
-        gFile: File;
+        gTempBlob: Codeunit "Temp Blob";
+        gOutStream: OutStream;
+        gInStream: InStream;
         gRegistros: Integer;
         gTotal: Integer;
         gDialog: Dialog;
         SEP: Text[1];
         Text000: Label 'Exportando datos BiOnTrend...\\Fichero: #1################\\Registro: #2######## de #3########';
-        Text001: Label 'Exportación BiOnTrend completada. %1 ficheros generados en: %2';
+        Text001: Label 'Exportacion BiOnTrend completada. %1 ficheros generados en: %2';
         Text002: Label 'No se ha podido obtener el hotel de trabajo del usuario.';
 
     procedure ExportarDatos(pModoCompleto: Boolean; pRutaSalida: Text[250])
@@ -71,16 +74,16 @@ codeunit 50050 "THB BiOnTrend Export"
         gDialog.UPDATE(1, 'Segmento');
         GenerarFicheroSegmento;
 
-        gDialog.UPDATE(1, 'Régimen');
+        gDialog.UPDATE(1, 'Regimen');
         GenerarFicheroRegimen;
 
         gDialog.UPDATE(1, 'Tarifa');
         GenerarFicheroTarifa;
 
-        gDialog.UPDATE(1, 'Tipo Habitación');
+        gDialog.UPDATE(1, 'Tipo Habitacion');
         GenerarFicheroTipoHabitacion;
 
-        gDialog.UPDATE(1, 'País');
+        gDialog.UPDATE(1, 'Pais');
         GenerarFicheroPais;
 
         gDialog.UPDATE(1, 'Cliente');
@@ -107,9 +110,10 @@ codeunit 50050 "THB BiOnTrend Export"
         lImpDescuento: Decimal;
         lImpOtros: Decimal;
     begin
-        gFile.CREATE(gRutaSalida + 'Reserva.csv');
-        gFile.TEXTMODE(TRUE);
-        gFile.WRITE(
+        Clear(gTempBlob);
+        gTempBlob.CreateOutStream(gOutStream, TextEncoding::UTF8);
+
+        gOutStream.WriteText(
           'ID_Reserva' + SEP + 'ID_Hotel' + SEP +
           'ID_Estado_Reserva' + SEP + 'Fecha_Venta' + SEP +
           'ID_Segmento' + SEP + 'ID_Cliente' + SEP +
@@ -123,7 +127,7 @@ codeunit 50050 "THB BiOnTrend Export"
           'Importe_Servicios' + SEP + 'Importe_Descuento' + SEP +
           'Importe_Otros' + SEP + 'ID_Tarifa' + SEP +
           'ID_Pais' + SEP + 'Fecha_Cancelacion' + SEP +
-          'Es_Ficticia'
+          'Es_Ficticia' + Format('\r\n')
         );
 
         lRvaDia.RESET;
@@ -139,7 +143,7 @@ codeunit 50050 "THB BiOnTrend Export"
                 IF (gRegistros MOD 500) = 0 THEN
                     gDialog.UPDATE(2, gRegistros);
 
-                IF lRva.GET(lRvaDia.Hotel, lRvaDia.Año, lRvaDia.Reserva, lRvaDia.Desglose) THEN BEGIN
+                IF lRva.GET(lRvaDia.Hotel, lRvaDia.Ano, lRvaDia.Reserva, lRvaDia.Desglose) THEN BEGIN
 
                     lFecha := lRvaDia.Fecha;
 
@@ -152,14 +156,14 @@ codeunit 50050 "THB BiOnTrend Export"
 
                     IF lFecha <= TODAY THEN
                         ObtenerImportesProdReal(
-                          lRvaDia.Hotel, lRvaDia.Año, lRvaDia.Reserva, lRvaDia.Desglose,
+                          lRvaDia.Hotel, lRvaDia.Ano, lRvaDia.Reserva, lRvaDia.Desglose,
                           lFecha, lImpNeto, lImpServicios, lImpComision, lImpIVA, lImpDescuento, lImpOtros)
                     ELSE
                         ObtenerImportesProdFutura(
-                          lRvaDia.Hotel, lRvaDia.Año, lRvaDia.Reserva, lRvaDia.Desglose,
+                          lRvaDia.Hotel, lRvaDia.Ano, lRvaDia.Reserva, lRvaDia.Desglose,
                           lFecha, lImpNeto, lImpServicios, lImpComision, lImpIVA, lImpDescuento, lImpOtros);
 
-                    lIDReserva := lRvaDia.Hotel + '-' + FORMAT(lRvaDia.Año) + '-' +
+                    lIDReserva := lRvaDia.Hotel + '-' + FORMAT(lRvaDia.Ano) + '-' +
                                   lRvaDia.Reserva + '-' + lRvaDia.Desglose;
 
                     lLinea :=
@@ -175,8 +179,8 @@ codeunit 50050 "THB BiOnTrend Export"
                       FmtFecha(lFecha) + SEP +
                       FORMAT(lRva.Noches) + SEP +
                       Limpiar(lRvaDia."Tipo hab. uso") + SEP +
-                      Limpiar(lRvaDia."Régimen uso") + SEP +
-                      Limpiar(lRvaDia.Habitación) + SEP +
+                      Limpiar(lRvaDia."Regimen uso") + SEP +
+                      Limpiar(lRvaDia.Habitacion) + SEP +
                       FmtEntero(lRvaDia.AD) + SEP +
                       FmtEntero(lRvaDia.NI) + SEP +
                       FmtEntero(lRvaDia.CU) + SEP +
@@ -186,22 +190,25 @@ codeunit 50050 "THB BiOnTrend Export"
                       FmtDec(lImpServicios) + SEP +
                       FmtDec(lImpDescuento) + SEP +
                       FmtDec(lImpOtros) + SEP +
-                      Limpiar(lRvaDia."Cód. tarifa") + SEP +
+                      Limpiar(lRvaDia."Cod. tarifa") + SEP +
                       Limpiar(lRva.Nacionalidad) + SEP +
                       FmtFecha(lRva."Fecha Borrado") + SEP +
                       '0';
 
-                    gFile.WRITE(lLinea);
+                    gOutStream.WriteText(lLinea + Format('\r\n'));
+
                 END;
 
             UNTIL lRvaDia.NEXT = 0;
 
-        gFile.CLOSE;
+        gTempBlob.CreateInStream(gInStream);
+        gFichero := 'Reserva.csv';
+        DownloadFromStream(gInStream, 'BiOnTrend Export', '', 'CSV Files (*.csv)|*.csv', gFichero);
     end;
 
     local procedure ObtenerImportesProdReal(pHotel: Code[10]; pAnyo: Integer; pReserva: Code[10]; pDesglose: Code[10]; pFechaCargo: Date; var pNeto: Decimal; var pServicios: Decimal; var pComision: Decimal; var pIVA: Decimal; var pDescuento: Decimal; var pOtros: Decimal)
     var
-        lProd: Record "7000206";
+        lProd: Record 7000206;
         lProdAloj: Decimal;
         lProdPens: Decimal;
         lPctGuias: Decimal;
@@ -220,30 +227,30 @@ codeunit 50050 "THB BiOnTrend Export"
 
         lProd.RESET;
         lProd.SETRANGE(Hotel, pHotel);
-        lProd.SETRANGE("Año reserva", pAnyo);
+        lProd.SETRANGE("Ano reserva", pAnyo);
         lProd.SETRANGE(Reserva, pReserva);
         lProd.SETRANGE(Desglose, pDesglose);
         lProd.SETRANGE("Fecha cargo", pFechaCargo);
 
         IF lProd.FINDSET THEN
             REPEAT
-                CASE lProd."Formato línea" OF
-                    lProd."Formato línea"::Estancia:
+                CASE lProd."Formato linea" OF
+                    lProd."Formato linea"::Estancia:
                         BEGIN
                             IF lProd.Alojamiento THEN
-                                lProdAloj := lProdAloj + lProd."Total importe producción"
+                                lProdAloj := lProdAloj + lProd."Total importe produccion"
                             ELSE
-                                lProdPens := lProdPens + lProd."Total importe producción";
+                                lProdPens := lProdPens + lProd."Total importe produccion";
 
                             IF lProd."% Guias" <> 0 THEN
                                 lPctGuias := lProd."% Guias";
                             IF lProd."% Impuesto" <> 0 THEN
                                 lPctImpuesto := lProd."% Impuesto";
                         END;
-                    lProd."Formato línea"::Descuento:
+                    lProd."Formato linea"::Descuento:
                         pDescuento := pDescuento + lProd."Total importe";
-                    lProd."Formato línea"::Extra:
-                        pOtros := pOtros + lProd."Total importe producción";
+                    lProd."Formato linea"::Extra:
+                        pOtros := pOtros + lProd."Total importe produccion";
                 END;
             UNTIL lProd.NEXT = 0;
 
@@ -262,7 +269,7 @@ codeunit 50050 "THB BiOnTrend Export"
 
     local procedure ObtenerImportesProdFutura(pHotel: Code[10]; pAnyo: Integer; pReserva: Code[10]; pDesglose: Code[10]; pFechaCargo: Date; var pNeto: Decimal; var pServicios: Decimal; var pComision: Decimal; var pIVA: Decimal; var pDescuento: Decimal; var pOtros: Decimal)
     var
-        lProd: Record "50021";
+        lProd: Record "qht lineas de produccion";
         lProdAloj: Decimal;
         lProdPens: Decimal;
         lPctGuias: Decimal;
@@ -281,30 +288,30 @@ codeunit 50050 "THB BiOnTrend Export"
 
         lProd.RESET;
         lProd.SETRANGE(Hotel, pHotel);
-        lProd.SETRANGE("Año reserva", pAnyo);
+        lProd.SETRANGE("Ano reserva", pAnyo);
         lProd.SETRANGE(Reserva, pReserva);
         lProd.SETRANGE(Desglose, pDesglose);
         lProd.SETRANGE("Fecha cargo", pFechaCargo);
 
         IF lProd.FINDSET THEN
             REPEAT
-                CASE lProd."Formato línea" OF
-                    lProd."Formato línea"::Estancia:
+                CASE lProd."Formato linea" OF
+                    lProd."Formato linea"::Estancia:
                         BEGIN
                             IF lProd.Alojamiento THEN
-                                lProdAloj := lProdAloj + lProd."Total importe producción"
+                                lProdAloj := lProdAloj + lProd."Total importe produccion"
                             ELSE
-                                lProdPens := lProdPens + lProd."Total importe producción";
+                                lProdPens := lProdPens + lProd."Total importe produccion";
 
                             IF lProd."% Guias" <> 0 THEN
                                 lPctGuias := lProd."% Guias";
                             IF lProd."% Impuesto" <> 0 THEN
                                 lPctImpuesto := lProd."% Impuesto";
                         END;
-                    lProd."Formato línea"::Descuento:
+                    lProd."Formato linea"::Descuento:
                         pDescuento := pDescuento + lProd."Total importe";
-                    lProd."Formato línea"::Extra:
-                        pOtros := pOtros + lProd."Total importe producción";
+                    lProd."Formato linea"::Extra:
+                        pOtros := pOtros + lProd."Total importe produccion";
                 END;
             UNTIL lProd.NEXT = 0;
 
@@ -323,13 +330,13 @@ codeunit 50050 "THB BiOnTrend Export"
 
     local procedure GenerarFicheroCapacidad()
     var
-        lTipoHab: Record "7000115";
+        lTipoHab: Record 7000115;
         lFecha: Date;
     begin
-        gFile.CREATE(gRutaSalida + 'Capacidad.csv');
-        gFile.TEXTMODE(TRUE);
-        gFile.WRITE('ID_Hotel' + SEP + 'Fecha_Hasta' + SEP +
-                    'ID_Tipo_Habitacion' + SEP + 'Nro_Habitaciones');
+        Clear(gTempBlob);
+        gTempBlob.CreateOutStream(gOutStream, TextEncoding::UTF8);
+        gOutStream.WriteText('ID_Hotel' + SEP + 'Fecha_Hasta' + SEP +
+                    'ID_Tipo_Habitacion' + SEP + 'Nro_Habitaciones' + Format('\r\n'));
 
         lTipoHab.RESET;
         lTipoHab.SETRANGE(Real, TRUE);
@@ -338,35 +345,37 @@ codeunit 50050 "THB BiOnTrend Export"
             REPEAT
                 lFecha := gFechaDesde;
                 WHILE lFecha <= gFechaHasta DO BEGIN
-                    gFile.WRITE(
+                    gOutStream.WriteText(
                       Limpiar(lTipoHab.Hotel) + SEP +
                       FmtFecha(lFecha) + SEP +
-                      Limpiar(lTipoHab."Tipo habitación") + SEP +
-                      FORMAT(lTipoHab.Cantidad)
+                      Limpiar(lTipoHab."Tipo habitacion") + SEP +
+                      FORMAT(lTipoHab.Cantidad) + Format('\r\n')
                     );
                     lFecha := lFecha + 1;
                 END;
             UNTIL lTipoHab.NEXT = 0;
 
-        gFile.CLOSE;
+        gTempBlob.CreateInStream(gInStream);
+        gFichero := 'Capacidad.csv';
+        DownloadFromStream(gInStream, 'BiOnTrend Export', '', 'CSV Files (*.csv)|*.csv', gFichero);
     end;
 
     local procedure GenerarFicheroBloqueo()
     var
-        lInc: Record "7000802";
+        lInc: Record "QHT Incidencias SSTT diariasTS";
         lTipoHab: Code[10];
         lHotelAnt: Code[10];
         lFechaAnt: Date;
         lTipoAnt: Code[10];
         lContador: Integer;
     begin
-        gFile.CREATE(gRutaSalida + 'Bloqueo.csv');
-        gFile.TEXTMODE(TRUE);
-        gFile.WRITE('ID_Hotel' + SEP + 'Fecha_Desde' + SEP + 'Fecha_Hasta' + SEP +
-                    'ID_Tipo_Habitacion' + SEP + 'Nro_Habitaciones');
+        Clear(gTempBlob);
+        gTempBlob.CreateOutStream(gOutStream, TextEncoding::UTF8);
+        gOutStream.WriteText('ID_Hotel' + SEP + 'Fecha_Desde' + SEP + 'Fecha_Hasta' + SEP +
+                    'ID_Tipo_Habitacion' + SEP + 'Nro_Habitaciones' + Format('\r\n'));
 
         lInc.RESET;
-        lInc.SETCURRENTKEY(Hotel, Habitación, "Esta bloqueada", Fecha);
+        lInc.SETCURRENTKEY(Hotel, Habitacion, "Esta bloqueada", Fecha);
         lInc.SETRANGE("Esta bloqueada", TRUE);
         lInc.SETRANGE(Fecha, gFechaDesde, gFechaHasta);
 
@@ -377,17 +386,17 @@ codeunit 50050 "THB BiOnTrend Export"
 
         IF lInc.FINDSET THEN
             REPEAT
-                lInc.CALCFIELDS("Tipo habitación");
-                lTipoHab := lInc."Tipo habitación";
+                lInc.CALCFIELDS("Tipo habitacion");
+                lTipoHab := lInc."Tipo habitacion";
 
                 IF (lInc.Hotel <> lHotelAnt) OR (lInc.Fecha <> lFechaAnt) OR (lTipoHab <> lTipoAnt) THEN BEGIN
                     IF lContador > 0 THEN
-                        gFile.WRITE(
+                        gOutStream.WriteText(
                           Limpiar(lHotelAnt) + SEP +
                           FmtFecha(lFechaAnt) + SEP +
                           FmtFecha(lFechaAnt) + SEP +
                           Limpiar(lTipoAnt) + SEP +
-                          FORMAT(lContador)
+                          FORMAT(lContador) + Format('\r\n')
                         );
                     lHotelAnt := lInc.Hotel;
                     lFechaAnt := lInc.Fecha;
@@ -399,26 +408,28 @@ codeunit 50050 "THB BiOnTrend Export"
             UNTIL lInc.NEXT = 0;
 
         IF lContador > 0 THEN
-            gFile.WRITE(
+            gOutStream.WriteText(
               Limpiar(lHotelAnt) + SEP +
               FmtFecha(lFechaAnt) + SEP +
               FmtFecha(lFechaAnt) + SEP +
               Limpiar(lTipoAnt) + SEP +
-              FORMAT(lContador)
+              FORMAT(lContador) + Format('\r\n')
             );
 
-        gFile.CLOSE;
+        gTempBlob.CreateInStream(gInStream);
+        gFichero := 'Bloqueo.csv';
+        DownloadFromStream(gInStream, 'BiOnTrend Export', '', 'CSV Files (*.csv)|*.csv', gFichero);
     end;
 
     local procedure GenerarFicheroServicioExtra()
     var
-        lProdReal: Record "7000206";
-        lProdFut: Record "50021";
+        lProdReal: Record 7000206;
+        lProdFut: Record "qht lineas de produccion";
         lIDReserva: Text[50];
     begin
-        gFile.CREATE(gRutaSalida + 'Servicio_extra.csv');
-        gFile.TEXTMODE(TRUE);
-        gFile.WRITE(
+        Clear(gTempBlob);
+        gTempBlob.CreateOutStream(gOutStream, TextEncoding::UTF8);
+        gOutStream.WriteText(
           'ID_Reserva' + SEP + 'ID_Hotel' + SEP +
           'Fecha_Servicio' + SEP + 'ID_Tipo_Servicio' + SEP +
           'Servicio' + SEP + 'Unidades' + SEP +
@@ -428,13 +439,13 @@ codeunit 50050 "THB BiOnTrend Export"
 
         lProdReal.RESET;
         lProdReal.SETRANGE("Fecha cargo", gFechaDesde, TODAY);
-        lProdReal.SETFILTER("Formato línea", '%1', lProdReal."Formato línea"::Extra);
+        lProdReal.SETFILTER("Formato linea", '%1', lProdReal."Formato linea"::Extra);
 
         IF lProdReal.FINDSET THEN
             REPEAT
-                lIDReserva := lProdReal.Hotel + '-' + FORMAT(lProdReal."Año reserva") + '-' +
+                lIDReserva := lProdReal.Hotel + '-' + FORMAT(lProdReal."Ano reserva") + '-' +
                               lProdReal.Reserva + '-' + lProdReal.Desglose;
-                gFile.WRITE(
+                gOutStream.WriteText(
                   Limpiar(lIDReserva) + SEP +
                   Limpiar(lProdReal.Hotel) + SEP +
                   FmtFecha(lProdReal."Fecha cargo") + SEP +
@@ -443,21 +454,21 @@ codeunit 50050 "THB BiOnTrend Export"
                   FmtDec(lProdReal.Cantidad) + SEP +
                   FmtDec(lProdReal.Importe) + SEP +
                   '0.00' + SEP +
-                  FmtDec(ROUND(lProdReal."Total importe producción" *
+                  FmtDec(ROUND(lProdReal."Total importe produccion" *
                          lProdReal."% Impuesto" / 100, 0.01)) + SEP +
-                  FmtDec(lProdReal."Total importe producción")
+                  FmtDec(lProdReal."Total importe produccion") + Format('\r\n')
                 );
             UNTIL lProdReal.NEXT = 0;
 
         lProdFut.RESET;
         lProdFut.SETRANGE("Fecha cargo", TODAY + 1, gFechaHasta);
-        lProdFut.SETFILTER("Formato línea", '%1', lProdFut."Formato línea"::Extra);
+        lProdFut.SETFILTER("Formato linea", '%1', lProdFut."Formato linea"::Extra);
 
         IF lProdFut.FINDSET THEN
             REPEAT
-                lIDReserva := lProdFut.Hotel + '-' + FORMAT(lProdFut."Año reserva") + '-' +
+                lIDReserva := lProdFut.Hotel + '-' + FORMAT(lProdFut."Ano reserva") + '-' +
                               lProdFut.Reserva + '-' + lProdFut.Desglose;
-                gFile.WRITE(
+                gOutStream.WriteText(
                   Limpiar(lIDReserva) + SEP +
                   Limpiar(lProdFut.Hotel) + SEP +
                   FmtFecha(lProdFut."Fecha cargo") + SEP +
@@ -466,177 +477,197 @@ codeunit 50050 "THB BiOnTrend Export"
                   FmtDec(lProdFut.Cantidad) + SEP +
                   FmtDec(lProdFut.Importe) + SEP +
                   '0.00' + SEP +
-                  FmtDec(ROUND(lProdFut."Total importe producción" *
+                  FmtDec(ROUND(lProdFut."Total importe produccion" *
                          lProdFut."% Impuesto" / 100, 0.01)) + SEP +
-                  FmtDec(lProdFut."Total importe producción")
+                  FmtDec(lProdFut."Total importe produccion") + Format('\r\n')
                 );
             UNTIL lProdFut.NEXT = 0;
 
-        gFile.CLOSE;
+        gTempBlob.CreateInStream(gInStream);
+        gFichero := 'ServiciosExtra.csv';
+        DownloadFromStream(gInStream, 'BiOnTrend Export', '', 'CSV Files (*.csv)|*.csv', gFichero);
     end;
 
     local procedure GenerarFicheroHotel()
     var
-        lHotel: Record "7000110";
+        lHotel: Record 7000110;
     begin
-        gFile.CREATE(gRutaSalida + 'Hotel.csv');
-        gFile.TEXTMODE(TRUE);
-        gFile.WRITE('ID_Hotel' + SEP + 'Descripcion');
+        Clear(gTempBlob);
+        gTempBlob.CreateOutStream(gOutStream, TextEncoding::UTF8);
+        gOutStream.WriteText('ID_Hotel' + SEP + 'Descripcion');
         lHotel.RESET;
         IF lHotel.FINDSET THEN
             REPEAT
-                gFile.WRITE(Limpiar(lHotel.Hotel) + SEP + Limpiar(lHotel.Nombre));
+                gOutStream.WriteText(Limpiar(lHotel.Hotel) + SEP + Limpiar(lHotel.Nombre) + Format('\r\n'));
             UNTIL lHotel.NEXT = 0;
-        gFile.CLOSE;
+        gTempBlob.CreateInStream(gInStream);
+        gFichero := 'Hotel.csv';
+        DownloadFromStream(gInStream, 'BiOnTrend Export', '', 'CSV Files (*.csv)|*.csv', gFichero);
     end;
 
     local procedure GenerarFicheroCanal()
     var
-        lCanal: Record "7001016";
-        lHotel: Record "7000110";
+        lCanal: Record 7001016;
+        lHotel: Record 7000110;
     begin
-        gFile.CREATE(gRutaSalida + 'Canal.csv');
-        gFile.TEXTMODE(TRUE);
-        gFile.WRITE('ID_Hotel' + SEP + 'ID_Canal' + SEP + 'Descripcion');
+        Clear(gTempBlob);
+        gTempBlob.CreateOutStream(gOutStream, TextEncoding::UTF8);
+        gOutStream.WriteText('ID_Hotel' + SEP + 'ID_Canal' + SEP + 'Descripcion' + Format('\r\n'));
         lHotel.RESET;
         IF lHotel.FINDSET THEN
             REPEAT
                 lCanal.RESET;
                 IF lCanal.FINDSET THEN
                     REPEAT
-                        gFile.WRITE(Limpiar(lHotel.Hotel) + SEP + Limpiar(lCanal."Canal/Origen") + SEP + Limpiar(lCanal.Descripción));
+                        gOutStream.WriteText(Limpiar(lHotel.Hotel) + SEP + Limpiar(lCanal."Canal/Origen") + SEP + Limpiar(lCanal.Descripcion) + Format('\r\n'));
                     UNTIL lCanal.NEXT = 0;
             UNTIL lHotel.NEXT = 0;
-        gFile.CLOSE;
+        gTempBlob.CreateInStream(gInStream);
+        gFichero := 'Canal.csv';
+        DownloadFromStream(gInStream, 'BiOnTrend Export', '', 'CSV Files (*.csv)|*.csv', gFichero);
     end;
 
     local procedure GenerarFicheroSegmento()
     var
-        lSeg: Record "7001017";
-        lHotel: Record "7000110";
+        lSeg: Record 7001017;
+        lHotel: Record 7000110;
     begin
-        gFile.CREATE(gRutaSalida + 'Segmento.csv');
-        gFile.TEXTMODE(TRUE);
-        gFile.WRITE('ID_Hotel' + SEP + 'ID_Segmento' + SEP + 'Descripcion');
+        Clear(gTempBlob);
+        gTempBlob.CreateOutStream(gOutStream, TextEncoding::UTF8);
+        gOutStream.WriteText('ID_Hotel' + SEP + 'ID_Segmento' + SEP + 'Descripcion' + Format('\r\n'));
         lHotel.RESET;
         IF lHotel.FINDSET THEN
             REPEAT
                 lSeg.RESET;
                 IF lSeg.FINDSET THEN
                     REPEAT
-                        gFile.WRITE(Limpiar(lHotel.Hotel) + SEP + Limpiar(lSeg.Segmento) + SEP + Limpiar(lSeg.Descripción));
+                        gOutStream.WriteText(Limpiar(lHotel.Hotel) + SEP + Limpiar(lSeg.Segmento) + SEP + Limpiar(lSeg.Descripcion) + Format('\r\n'));
                     UNTIL lSeg.NEXT = 0;
             UNTIL lHotel.NEXT = 0;
-        gFile.CLOSE;
+        gTempBlob.CreateInStream(gInStream);
+        gFichero := 'Segmento.csv';
+        DownloadFromStream(gInStream, 'BiOnTrend Export', '', 'CSV Files (*.csv)|*.csv', gFichero);
     end;
 
     local procedure GenerarFicheroRegimen()
     var
-        lReg: Record "7000112";
-        lHotel: Record "7000110";
+        lReg: Record 7000112;
+        lHotel: Record 7000110;
     begin
-        gFile.CREATE(gRutaSalida + 'Regimen.csv');
-        gFile.TEXTMODE(TRUE);
-        gFile.WRITE('ID_Hotel' + SEP + 'ID_Regimen' + SEP + 'Descripcion');
+        Clear(gTempBlob);
+        gTempBlob.CreateOutStream(gOutStream, TextEncoding::UTF8);
+        gOutStream.WriteText('ID_Hotel' + SEP + 'ID_Regimen' + SEP + 'Descripcion' + Format('\r\n'));
         lHotel.RESET;
         IF lHotel.FINDSET THEN
             REPEAT
                 lReg.RESET;
                 IF lReg.FINDSET THEN
                     REPEAT
-                        gFile.WRITE(Limpiar(lHotel.Hotel) + SEP + Limpiar(lReg.Régimen) + SEP + Limpiar(lReg.Descripción));
+                        gOutStream.WriteText(Limpiar(lHotel.Hotel) + SEP + Limpiar(lReg.Regimen) + SEP + Limpiar(lReg.Descripcion));
                     UNTIL lReg.NEXT = 0;
             UNTIL lHotel.NEXT = 0;
-        gFile.CLOSE;
+        gTempBlob.CreateInStream(gInStream);
+        gFichero := 'Regimen.csv';
+        DownloadFromStream(gInStream, 'BiOnTrend Export', '', 'CSV Files (*.csv)|*.csv', gFichero);
     end;
 
     local procedure GenerarFicheroTarifa()
     var
-        lTar: Record "7000985";
+        lTar: Record 7000985;
     begin
-        gFile.CREATE(gRutaSalida + 'Tarifa.csv');
-        gFile.TEXTMODE(TRUE);
-        gFile.WRITE('ID_Hotel' + SEP + 'ID_Tarifa' + SEP + 'Descripcion');
+        Clear(gTempBlob);
+        gTempBlob.CreateOutStream(gOutStream, TextEncoding::UTF8);
+        gOutStream.WriteText('ID_Hotel' + SEP + 'ID_Tarifa' + SEP + 'Descripcion' + Format('\r\n'));
         lTar.RESET;
         IF lTar.FINDSET THEN
             REPEAT
-                gFile.WRITE(Limpiar(lTar.Hotel) + SEP + Limpiar(lTar."Cód. Tarifa") + SEP + Limpiar(lTar.Descripción));
+                gOutStream.WriteText(Limpiar(lTar.Hotel) + SEP + Limpiar(lTar."Cod. Tarifa") + SEP + Limpiar(lTar.Descripcion) + Format('\r\n'));
             UNTIL lTar.NEXT = 0;
-        gFile.CLOSE;
+        gTempBlob.CreateInStream(gInStream);
+        gFichero := 'Tarifa.csv';
+        DownloadFromStream(gInStream, 'BiOnTrend Export', '', 'CSV Files (*.csv)|*.csv', gFichero);
     end;
 
     local procedure GenerarFicheroTipoHabitacion()
     var
-        lTH: Record "7000115";
+        lTH: Record 7000115;
     begin
-        gFile.CREATE(gRutaSalida + 'Tipo_habitacion.csv');
-        gFile.TEXTMODE(TRUE);
-        gFile.WRITE('ID_Hotel' + SEP + 'ID_Tipo_Habitacion' + SEP + 'Descripcion');
+        Clear(gTempBlob);
+        gTempBlob.CreateOutStream(gOutStream, TextEncoding::UTF8);
+        gOutStream.WriteText('ID_Hotel' + SEP + 'ID_Tipo_Habitacion' + SEP + 'Descripcion');
         lTH.RESET;
         IF lTH.FINDSET THEN
             REPEAT
-                gFile.WRITE(Limpiar(lTH.Hotel) + SEP + Limpiar(lTH."Tipo habitación") + SEP + Limpiar(lTH.Observaciones));
+                gOutStream.WriteText(Limpiar(lTH.Hotel) + SEP + Limpiar(lTH."Tipo habitacion") + SEP + Limpiar(lTH.Observaciones));
             UNTIL lTH.NEXT = 0;
-        gFile.CLOSE;
+        gTempBlob.CreateInStream(gInStream);
+        gFichero := 'TipoHabitacion.csv';
+        DownloadFromStream(gInStream, 'BiOnTrend Export', '', 'CSV Files (*.csv)|*.csv', gFichero);
     end;
 
     local procedure GenerarFicheroPais()
     var
-        lPais: Record "9";
-        lHotel: Record "7000110";
+        lPais: Record 9;
+        lHotel: Record 7000110;
     begin
-        gFile.CREATE(gRutaSalida + 'Pais.csv');
-        gFile.TEXTMODE(TRUE);
-        gFile.WRITE('ID_Hotel' + SEP + 'ID_Pais' + SEP + 'Descripcion');
+        Clear(gTempBlob);
+        gTempBlob.CreateOutStream(gOutStream, TextEncoding::UTF8);
+        gOutStream.WriteText('ID_Hotel' + SEP + 'ID_Pais' + SEP + 'Descripcion' + Format('\r\n'));
         lHotel.RESET;
         IF lHotel.FINDSET THEN
             REPEAT
                 lPais.RESET;
                 IF lPais.FINDSET THEN
                     REPEAT
-                        gFile.WRITE(Limpiar(lHotel.Hotel) + SEP + Limpiar(lPais.Code) + SEP + Limpiar(lPais.Name));
+                        gOutStream.WriteText(Limpiar(lHotel.Hotel) + SEP + Limpiar(lPais.Code) + SEP + Limpiar(lPais.Name));
                     UNTIL lPais.NEXT = 0;
             UNTIL lHotel.NEXT = 0;
-        gFile.CLOSE;
+        gTempBlob.CreateInStream(gInStream);
+        gFichero := 'Pais.csv';
+        DownloadFromStream(gInStream, 'BiOnTrend Export', '', 'CSV Files (*.csv)|*.csv', gFichero);
     end;
 
     local procedure GenerarFicheroCliente()
     var
-        lCli: Record "7001026";
-        lHotel: Record "7000110";
+        lCli: Record Customer;
+        lHotel: Record 7000110;
     begin
-        gFile.CREATE(gRutaSalida + 'Cliente.csv');
-        gFile.TEXTMODE(TRUE);
-        gFile.WRITE('ID_Hotel' + SEP + 'ID_Cliente' + SEP + 'Descripcion');
+        Clear(gTempBlob);
+        gTempBlob.CreateOutStream(gOutStream, TextEncoding::UTF8);
+        gOutStream.WriteText('ID_Hotel' + SEP + 'ID_Cliente' + SEP + 'Descripcion' + Format('\r\n'));
         lHotel.RESET;
         IF lHotel.FINDSET THEN
             REPEAT
                 lCli.RESET;
                 IF lCli.FINDSET THEN
                     REPEAT
-                        gFile.WRITE(Limpiar(lHotel.Hotel) + SEP + Limpiar(lCli."No.") + SEP + Limpiar(lCli.Name));
+                        gOutStream.WriteText(Limpiar(lHotel.Hotel) + SEP + Limpiar(lCli."No.") + SEP + Limpiar(lCli.Name) + Format('\r\n'));
                     UNTIL lCli.NEXT = 0;
             UNTIL lHotel.NEXT = 0;
-        gFile.CLOSE;
+        gTempBlob.CreateInStream(gInStream);
+        gFichero := 'Cliente.csv';
+        DownloadFromStream(gInStream, 'BiOnTrend Export', '', 'CSV Files (*.csv)|*.csv', gFichero);
     end;
 
     local procedure GenerarFicheroEstadoReserva()
     var
-        lHotel: Record "7000110";
+        lHotel: Record 7000110;
     begin
-        gFile.CREATE(gRutaSalida + 'Estado_reserva.csv');
-        gFile.TEXTMODE(TRUE);
-        gFile.WRITE('ID_Hotel' + SEP + 'ID_Estado_Reserva' + SEP + 'Descripcion');
+        Clear(gTempBlob);
+        gTempBlob.CreateOutStream(gOutStream, TextEncoding::UTF8);
+        gOutStream.WriteText('ID_Hotel' + SEP + 'ID_Estado_Reserva' + SEP + 'Descripcion' + Format('\r\n'));
         lHotel.RESET;
         IF lHotel.FINDSET THEN
             REPEAT
-                gFile.WRITE(Limpiar(lHotel.Hotel) + SEP + '0' + SEP + 'Reserva');
-                gFile.WRITE(Limpiar(lHotel.Hotel) + SEP + '1' + SEP + 'Anulada');
-                gFile.WRITE(Limpiar(lHotel.Hotel) + SEP + '2' + SEP + 'Entrada');
-                gFile.WRITE(Limpiar(lHotel.Hotel) + SEP + '3' + SEP + 'Salida');
-                gFile.WRITE(Limpiar(lHotel.Hotel) + SEP + '4' + SEP + 'No Show');
+                gOutStream.WriteText(Limpiar(lHotel.Hotel) + SEP + '0' + SEP + 'Reserva' + Format('\r\n'));
+                gOutStream.WriteText(Limpiar(lHotel.Hotel) + SEP + '1' + SEP + 'Anulada' + Format('\r\n'));
+                gOutStream.WriteText(Limpiar(lHotel.Hotel) + SEP + '2' + SEP + 'Entrada' + Format('\r\n'));
+                gOutStream.WriteText(Limpiar(lHotel.Hotel) + SEP + '3' + SEP + 'Salida' + Format('\r\n'));
+                gOutStream.WriteText(Limpiar(lHotel.Hotel) + SEP + '4' + SEP + 'No Show' + Format('\r\n'));
             UNTIL lHotel.NEXT = 0;
-        gFile.CLOSE;
+        gTempBlob.CreateInStream(gInStream);
+        gFichero := 'EstadoReserva.csv';
+        DownloadFromStream(gInStream, 'BiOnTrend Export', '', 'CSV Files (*.csv)|*.csv', gFichero);
     end;
 
     local procedure FmtFecha(pFecha: Date): Text[10]
