@@ -18,8 +18,8 @@ codeunit 50000 "THB Funciones"
             TempGenJnlLine."Posting Date" := PaymentOrder."Posting Date";
         //$001+
         //2001-
-        CarteraDoc.CALCFIELDS("QHTNo. documento externo");
-        TempGenJnlLine.Description := STRSUBSTNO(Text001, CarteraDoc."QHTNo. documento externo");
+        CarteraDoc.CALCFIELDS("QHTExternal Doc. No.");
+        TempGenJnlLine.Description := STRSUBSTNO(Text001, CarteraDoc."QHTExternal Doc. No.");
         //2001+
     end;
 

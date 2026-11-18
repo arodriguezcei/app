@@ -2,7 +2,7 @@
   "id": "8f79fe30-d4c6-4296-8137-2b29102c9e3d",
   "name": ">THB-BC-PER",
   "publisher": "CEI Europe",
-  "version": "26.0.0.0",
+  "version": "26.0.0.1",
   "brief": "Personalizaciones THB",
   "description": "Personalizaciones THB",
   "privacyStatement": "https://www.ceieu.com/",
@@ -15,7 +15,8 @@
     {"id" : "e33bd436-0a95-440b-af54-0695f349653c","name": "Quohotel - Front Office", "version": "26.0.0.0","publisher": "CEI Europe"},
     {"id" : "56ce1751-2d73-4da5-9a0c-f2dcf1368e1f","name": "Quohotel - Back Office", "version": "26.0.0.0","publisher": "CEI Europe"},
     {"id" : "fec96dbd-0574-47d7-8c95-4d88e9647113","name": "Quohotel - Integrations", "version": "26.0.0.0","publisher": "CEI Europe"},
-    {"id" : "ca744cca-96b3-4cf6-9dec-440110a6f306","name": "QuoSII", "version": "23.0.31.1","publisher": "CEI Europe"}
+    {"id" : "ca744cca-96b3-4cf6-9dec-440110a6f306","name": "QuoSII", "version": "23.0.31.1","publisher": "CEI Europe"},
+    {"id" : "973c6583-0634-440a-b56b-c3719328639a","name": "QuoHotel - SPAIN", "version": "26.0.0.5","publisher": "CEI Europe"}
    ],
   "screenshots": [],
   "platform": "1.0.0.0",

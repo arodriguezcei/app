@@ -2203,13 +2203,13 @@ report 50000 "THB Make 347 Declaration"
 
         case NumTrimestre of
             1:
-                pFacturasTMP."QHTImporte 1er Trimestre" += pImporte;
+                pFacturasTMP."QHTAmount First Quarter" += pImporte;
             2:
-                pFacturasTMP."QHTImporte 2o. Trimestre" += pImporte;
+                pFacturasTMP."QHTAmount Second Quarter" += pImporte;
             3:
-                pFacturasTMP."QHTImporte 3er Trimestre" += pImporte;
+                pFacturasTMP."QHTAmount Third Quarter" += pImporte;
             4:
-                pFacturasTMP."QHTImporte 4o. Trimestre" += pImporte;
+                pFacturasTMP."QHTAmount Fourth Quarter" += pImporte;
         end;
     end;
 
@@ -2219,10 +2219,10 @@ report 50000 "THB Make 347 Declaration"
         // -008
 
         Clear(QuarterSalesAmt);
-        QuarterSalesAmt[1] := pFacturasTMP."QHTImporte 1er Trimestre";
-        QuarterSalesAmt[2] := pFacturasTMP."QHTImporte 2o. Trimestre";
-        QuarterSalesAmt[3] := pFacturasTMP."QHTImporte 3er Trimestre";
-        QuarterSalesAmt[4] := pFacturasTMP."QHTImporte 4o. Trimestre";
+        QuarterSalesAmt[1] := pFacturasTMP."QHTAmount First Quarter";
+        QuarterSalesAmt[2] := pFacturasTMP."QHTAmount Second Quarter";
+        QuarterSalesAmt[3] := pFacturasTMP."QHTAmount Third Quarter";
+        QuarterSalesAmt[4] := pFacturasTMP."QHTAmount Fourth Quarter";
     end;
 
 
